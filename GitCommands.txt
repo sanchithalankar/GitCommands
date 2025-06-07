@@ -1,0 +1,13 @@
+git init
+
+git add "filename.extension"
+
+git commit -m "message"
+
+git config user.email "test@gmail.com"
+
+git config --global user.email "test@gmail.com"
+
+git status
+
+git log
