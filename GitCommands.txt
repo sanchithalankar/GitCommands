@@ -2,12 +2,22 @@ git init --> Used to inititialize a empty git repository in local machine.
 
 git add "filename.extension" --> Used to move the file from working directory to staging area.
 
-git commit -m "message"
+git commit -m "message" --> Create a new commit from changes added to the staging area.The commit must have a message! 
 
-git config user.email "test@gmail.com"
+git config user.email "test@gmail.com" --> Set the e-mail address that will be attached to your commits and tags.
 
-git config --global user.email "test@gmail.com"
+git config --global user.email "test@gmail.com"--> Set the e-mail address that will be attached to your commits and tags.
 
-git status
+git status --> Displays the status of your working directory. Options include new, staged, and modified files. It will retrieve branch name,
+		   current commit identifier, and changes pending commit.
 
-git log
+git log --> we can See commit history.
+
+git remote add alias Remote URL / git remote add origin https://github.com/sanchithalankar/GitCommands.git --> to make connection from local repository to remote repository.
+
+git remote -v --> to check the connections in remote repository
+
+git push alias branchname -->to push the changes into remote repository
+
+
+
