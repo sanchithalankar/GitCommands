@@ -2,7 +2,7 @@ git init --> Used to inititialize a empty git repository in local machine.
 
 git add "filename.extension" --> Used to move the file from working directory to staging area.
 
-git commit -m "message"
+git commit -m "message" --> Used to commit changes
 
 git config user.email "test@gmail.com"
 
