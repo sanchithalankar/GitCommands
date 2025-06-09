@@ -19,5 +19,7 @@ git remote -v --> to check the connections in remote repository
 
 git push alias branchname -->to push the changes into remote repository
 
+git branch --> Used to list created branches
+
 
 
