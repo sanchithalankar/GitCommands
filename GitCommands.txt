@@ -11,3 +11,5 @@ git config --global user.email "test@gmail.com"
 git status
 
 git log
+
+git commands file
